@@ -4,6 +4,7 @@
 #include "ISistema.h"
 #include "Tira.h"
 #include "ListaOrdImp.h"
+#include "ComparadorTira.h"
 
 class Sistema : public ISistema
 {
