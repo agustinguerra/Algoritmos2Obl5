@@ -442,3 +442,259 @@ A continuacion se listan cada uno de los elementos de la matriz por fila y arran
 ********************************************* Pruebas Ejercicio Calcular Silueta de Ciudad: Prueba 1 OK *********************************************
 
 
+Esta es la izquierda 2 , 10 - 9 , 0 - Esta es la derecha 3 , 15 - 7 , 0 - Esta es la merge 2 , 10 - 3 , 15 - 7 , 10 - 9 , 0 - Esta es la izquierda 2 , 10 - 3 , 15 - 7 , 10 - 9 , 0 - Esta es la derecha 5 , 12 - 12 , 0 - Esta es la merge 2 , 10 - 3 , 15 - 7 , 12 - 12 , 0 - Esta es la izquierda 15 , 10 - 20 , 0 - Esta es la derecha 19 , 8 - 24 , 0 - Esta es la merge 15 , 10 - 20 , 8 - 24 , 0 - Esta es la izquierda 2 , 10 - 3 , 15 - 7 , 12 - 12 , 0 - Esta es la derecha 15 , 10 - 20 , 8 - 24 , 0 - Esta es la merge 2 , 10 - 3 , 15 - 7 , 12 - 12 , 0 - 15 , 10 - 20 , 8 - 24 , 0 - 
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (2,10) y se esperaba (2,10)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (3,15) y se esperaba (3,15)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (7,12) y se esperaba (7,12)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (12,0) y se esperaba (12,0)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (15,10) y se esperaba (15,10)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (20,8) y se esperaba (20,8)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (24,0) y se esperaba (24,0)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Silueta de Ciudad: Prueba 2 OK *********************************************
+
+
+Esta es la izquierda 1 , 11 - 5 , 0 - Esta es la derecha 2 , 6 - 7 , 0 - Esta es la merge 1 , 11 - 5 , 6 - 7 , 0 - Esta es la izquierda 1 , 11 - 5 , 6 - 7 , 0 - Esta es la derecha 3 , 13 - 9 , 0 - Esta es la merge 1 , 11 - 3 , 13 - 9 , 0 - Esta es la izquierda 12 , 7 - 16 , 0 - Esta es la derecha 14 , 3 - 25 , 0 - Esta es la merge 12 , 7 - 16 , 3 - 25 , 0 - Esta es la izquierda 12 , 7 - 16 , 3 - 25 , 0 - Esta es la derecha 19 , 18 - 22 , 0 - Esta es la merge 12 , 7 - 16 , 3 - 19 , 18 - 22 , 3 - 25 , 0 - Esta es la izquierda 1 , 11 - 3 , 13 - 9 , 0 - Esta es la derecha 12 , 7 - 16 , 3 - 19 , 18 - 22 , 3 - 25 , 0 - Esta es la merge 1 , 11 - 3 , 13 - 9 , 0 - 12 , 7 - 16 , 3 - 19 , 18 - 22 , 3 - 25 , 0 - 
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (1,11) y se esperaba (1,11)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (3,13) y se esperaba (3,13)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (9,0) y se esperaba (9,0)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (12,7) y se esperaba (12,7)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (16,3) y se esperaba (16,3)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (19,18) y se esperaba (19,18)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (22,3) y se esperaba (22,3)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (25,0) y se esperaba (25,0)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Silueta de Ciudad: Prueba 3 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (1,11) y se esperaba (1,11)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (5,0) y se esperaba (5,0)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Silueta de Ciudad: Prueba 4 OK *********************************************
+
+
+Esta es la izquierda 0 , 7 - 2 , 0 - Esta es la derecha 1 , 2 - 5 , 0 - Esta es la merge 0 , 7 - 2 , 2 - 5 , 0 - Esta es la izquierda 0 , 7 - 2 , 2 - 5 , 0 - Esta es la derecha 3 , 7 - 6 , 0 - Esta es la merge 0 , 7 - 2 , 2 - 3 , 7 - 6 , 0 - Esta es la izquierda 4 , 10 - 9 , 0 - Esta es la derecha 8 , 14 - 12 , 0 - Esta es la merge 4 , 10 - 8 , 14 - 12 , 0 - Esta es la izquierda 4 , 10 - 8 , 14 - 12 , 0 - Esta es la derecha 12 , 14 - 15 , 0 - Esta es la merge 4 , 10 - 8 , 14 - 15 , 0 - Esta es la izquierda 0 , 7 - 2 , 2 - 3 , 7 - 6 , 0 - Esta es la derecha 4 , 10 - 8 , 14 - 15 , 0 - Esta es la merge 0 , 7 - 2 , 2 - 3 , 7 - 4 , 10 - 8 , 14 - 15 , 0 - 
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (0,7) y se esperaba (0,7)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (2,2) y se esperaba (2,2)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (3,7) y se esperaba (3,7)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (4,10) y se esperaba (4,10)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (8,14) y se esperaba (8,14)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo (15,0) y se esperaba (15,0)
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 1 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 1 y se esperaba 1
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 1 y se esperaba 1
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 1 y se esperaba 1
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 1 y se esperaba 1
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 2 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 3 y se esperaba 3
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 3 y se esperaba 3
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 4 y se esperaba 4
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 4 y se esperaba 4
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 43 y se esperaba 43
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 43 y se esperaba 43
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 3 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 1225 y se esperaba 1225
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 4 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 817190 y se esperaba 817190
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 5 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 1140 y se esperaba 1140
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 6 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 906192 y se esperaba 906192
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Calcular Coeficiente Binomial: Prueba 7 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo 82160 y se esperaba 82160
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+  +------------------------------+
+    Pruebas Correctas : 122
+    Pruebas Incorrectas: 0
+    Pruebas NI: 0
+  +------------------------------+

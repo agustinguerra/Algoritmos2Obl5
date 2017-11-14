@@ -1,4 +1,5 @@
 ﻿#include "Sistema.h"
+#define DEBUG
 
 Sistema::Sistema()
 {
@@ -58,8 +59,24 @@ Puntero<ListaOrd<Puntero<ITira>>> MergeSK(Puntero<ListaOrd<Puntero<ITira>>> izq,
 	
 	if (izq == nullptr && der == nullptr)
 		return nullptr;
+#ifdef DEBUG
 
-	
+	Iterador<Puntero<ITira>> it = izq->ObtenerIterador();
+
+	Iterador<Puntero<ITira>> itDerT = der->ObtenerIterador();
+
+	cout << "Esta es la izquierda ";
+	while (it.HayElemento()) {
+		cout << it.ElementoActual()->ObtenerX() << " , " << it.ElementoActual()->ObtenerAltura() << " - ";
+		it.Avanzar();
+	}
+	cout << "Esta es la derecha ";
+	while (itDerT.HayElemento()) {
+		cout << itDerT.ElementoActual()->ObtenerX() << " , " << itDerT.ElementoActual()->ObtenerAltura() << " - ";
+		itDerT.Avanzar();
+	}
+#endif // DEBUG
+
 	Iterador<Puntero<ITira>> itIzq = izq->ObtenerIterador();
 	Iterador<Puntero<ITira>> itDer = der->ObtenerIterador();
 
@@ -147,12 +164,21 @@ Puntero<ListaOrd<Puntero<ITira>>> MergeSK(Puntero<ListaOrd<Puntero<ITira>>> izq,
 
 			if (alturaAnt != tiraX->ObtenerAltura())
 			{
-				listaMerge->InsertarOrdenado(tira);
+				listaMerge->InsertarOrdenado(tiraX);
 				alturaAnt = tiraX->ObtenerAltura();
 			}
 		}
 	}
 
+#ifdef DEBUG
+	Iterador<Puntero<ITira>> itDerTM = listaMerge->ObtenerIterador();
+
+	cout << "Esta es la merge ";
+	while (itDerTM.HayElemento()) {
+		cout << itDerTM.ElementoActual()->ObtenerX() << " , " << itDerTM.ElementoActual()->ObtenerAltura() << " - ";
+		itDerTM.Avanzar();
+	}
+#endif // DEBUG
 
 	return listaMerge;
 }
